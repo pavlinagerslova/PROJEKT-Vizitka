@@ -10,12 +10,12 @@ BARVY:
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
 
-tlačítko Facebook:				 #3b5998
-tlačítko Facebook aktivní: #2b406e
+tlačítko facebook:				 #3b5998
+tlačítko facebook aktivní: #2b406e
 */
 body
 {
-    background-color: #666;
+    background-color: #b2bec3;
 }
 
 div.vizitka
@@ -31,11 +31,12 @@ div.vizitka
     position: relative;
 }
 
-img.Photo
+img.photo
 {
     width: 150px;
     border-radius: 50%;
     border: 3px solid white;
+    box-shadow: 5px 5px 5px #333;
     position: absolute;
     top: -75px;
     right: -75px;
@@ -53,9 +54,10 @@ p
 {
     margin:0 0 30px 0;
     text-align: justify;
+    font-size: 18px;
 }
 
-a.Twitter
+a.button
 {
     color: white;
     text-decoration: none;
@@ -63,37 +65,33 @@ a.Twitter
     display: block;
     padding: 10px;
     margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a.twitter
+{
+
     background-color: #1da1f2;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
-a.Twitter:hover,
-a.Twitter:active,
-a.Twitter:focus
+a.twitter:hover,
+a.twitter:active,
+a.twitter:focus
 {
-    color: #0b7bc1;
+    background-color: #0b7bc1;
 }
 
-a.Facebook
+a.facebook
 {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    padding: 10px;
     background-color: #3b5998;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
-a.Facebook:hover,
-a.Facebook:active,
-a.Facebook:focus
+a.facebook:hover,
+a.facebook:active,
+a.facebook:focus
 {
-    color: #2b406e;
+    background-color: #2b406e;
 }
